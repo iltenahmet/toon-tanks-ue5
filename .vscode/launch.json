@@ -1,0 +1,105 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch ToonTanks (Debug)",
+			"request": "launch",
+			"program": "/Users/ahmetilten/Documents/Unreal Projects/ToonTanks 5.0/Binaries/Mac/UnrealGame-Mac-Debug.app/Contents/MacOS/UnrealGame-Mac-Debug",
+			"preLaunchTask": "ToonTanks Mac Debug Build",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_5.0",
+			"type": "lldb"
+		},
+		{
+			"name": "Launch ToonTanks (DebugGame)",
+			"request": "launch",
+			"program": "/Users/ahmetilten/Documents/Unreal Projects/ToonTanks 5.0/Binaries/Mac/UnrealGame-Mac-DebugGame.app/Contents/MacOS/UnrealGame-Mac-DebugGame",
+			"preLaunchTask": "ToonTanks Mac DebugGame Build",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_5.0",
+			"type": "lldb"
+		},
+		{
+			"name": "Launch ToonTanks (Development)",
+			"request": "launch",
+			"program": "/Users/ahmetilten/Documents/Unreal Projects/ToonTanks 5.0/Binaries/Mac/UnrealGame.app/Contents/MacOS/UnrealGame",
+			"preLaunchTask": "ToonTanks Mac Development Build",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_5.0",
+			"type": "lldb"
+		},
+		{
+			"name": "Launch ToonTanks (Test)",
+			"request": "launch",
+			"program": "/Users/ahmetilten/Documents/Unreal Projects/ToonTanks 5.0/Binaries/Mac/UnrealGame-Mac-Test.app/Contents/MacOS/UnrealGame-Mac-Test",
+			"preLaunchTask": "ToonTanks Mac Test Build",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_5.0",
+			"type": "lldb"
+		},
+		{
+			"name": "Launch ToonTanks (Shipping)",
+			"request": "launch",
+			"program": "/Users/ahmetilten/Documents/Unreal Projects/ToonTanks 5.0/Binaries/Mac/UnrealGame-Mac-Shipping.app/Contents/MacOS/UnrealGame-Mac-Shipping",
+			"preLaunchTask": "ToonTanks Mac Shipping Build",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_5.0",
+			"type": "lldb"
+		},
+		{
+			"name": "Launch ToonTanksEditor (Debug)",
+			"request": "launch",
+			"program": "/Users/Shared/Epic Games/UE_5.0/Engine/Binaries/Mac/UnrealEditor-Mac-Debug.app/Contents/MacOS/UnrealEditor-Mac-Debug",
+			"preLaunchTask": "ToonTanksEditor Mac Debug Build",
+			"args": [
+				"/Users/ahmetilten/Documents/Unreal Projects/ToonTanks 5.0/ToonTanks.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_5.0",
+			"type": "lldb"
+		},
+		{
+			"name": "Launch ToonTanksEditor (DebugGame)",
+			"request": "launch",
+			"program": "/Users/Shared/Epic Games/UE_5.0/Engine/Binaries/Mac/UnrealEditor-Mac-DebugGame.app/Contents/MacOS/UnrealEditor-Mac-DebugGame",
+			"preLaunchTask": "ToonTanksEditor Mac DebugGame Build",
+			"args": [
+				"/Users/ahmetilten/Documents/Unreal Projects/ToonTanks 5.0/ToonTanks.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_5.0",
+			"type": "lldb"
+		},
+		{
+			"name": "Launch ToonTanksEditor (Development)",
+			"request": "launch",
+			"program": "/Users/Shared/Epic Games/UE_5.0/Engine/Binaries/Mac/UnrealEditor.app/Contents/MacOS/UnrealEditor",
+			"preLaunchTask": "ToonTanksEditor Mac Development Build",
+			"args": [
+				"/Users/ahmetilten/Documents/Unreal Projects/ToonTanks 5.0/ToonTanks.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_5.0",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "coreclr",
+			"request": "launch",
+			"program": "/Users/Shared/Epic Games/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=/Users/ahmetilten/Documents/Unreal Projects/ToonTanks 5.0/ToonTanks.uproject",
+				"-game",
+				"-engine"
+			],
+			"console": "internalConsole",
+			"internalConsoleOptions": "openOnSessionStart",
+			"stopAtEntry": false,
+			"cwd": "/Users/Shared/Epic Games/UE_5.0"
+		}
+	]
+}
