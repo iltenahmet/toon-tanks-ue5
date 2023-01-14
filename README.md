@@ -1,10 +1,11 @@
 # ToonTanks
 
-In this exciting 3D game, you control a powerful tank and must use your skills and strategy to destroy enemy towers before they take you down. Use WASD keys to move, the mouse to turn, and the space bar to shoot, and take down your enemies with precision and speed.
-
-I developed this game using Unreal Engine, following the guidance and instruction of the Udemy course, www.udemy.com/course/unrealcourse/. However, I made creative modifications to the gameplay, such as using the mouse to turn the tank instead of the A and D keys, to create a more intuitive and engaging experience.
-
-Most of the functionality of the game is written in C++, with some usage of the Blueprint system.
+Control the tank to destroy enemy towers before they take you down. Use the WASD keys to move, the mouse to turn, and the space bar to shoot. I developed this game using Unreal Engine, using both the Blueprint system and C++.
+What I implemented:
+- Tank and camera movement
+- Enemy turret rotation and shooting mechanics based on the position of the tank
+- Tank shooting mechanics
+- Particle and sound effects
 
 You can download and play the game from [here](https://iltenahmet.itch.io/toontanks).
 
